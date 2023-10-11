@@ -17,4 +17,4 @@
 - I encountered two errors during this process:
 - The first error was related to the use of the Microsoft Python extension, where our file path was not saved in our environment variables as a default setting. Consequently, the Streamlit app didn't work properly. To resolve this, I uninstalled the extension and installed a new Python version from python.org. During the initial installation, I made sure to enable the 'Copy Path' checkbox, which resolved the issue.
 - The second error occurred during the migration process from MongoDB to SQL data. The reason behind this error was that MongoDB can handle unstructured and complex data types, which MySQL cannot. To address this, I removed two features in videos and one feature in comments since they had list values. By using string operations, I transformed these lists of words into single strings. Although these features were removed from our analytics, they no longer posed compatibility issues.
-##![Sample Image](.YouTube-Data-Harvesting-and-visualization/Screanshots/Screenshot (200).png)
+##![Sample Image](./Screanshots/Screenshot%20(200).png)
