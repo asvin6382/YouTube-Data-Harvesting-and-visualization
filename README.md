@@ -12,5 +12,4 @@
 - I used Streamlit to create a web application. In this app, we have three tabs: 'Home,' 'Extract and Transform,' and 'View'
 - In the 'Home' tab, you can access the basic features.
 - The 'Extract and Transform' tab allows you to provide a YouTube channel ID and retrieve data, which you can then save in MongoDB. There's also a 'Save to SQL' button, which simplifies the process of storing data from MongoDB to MySQL.
-
-The 'View' tab is where you can perform in-depth analysis. I used bar charts and data frames for analytical visualizations, with the Pandas package for data frames. This area is designed for analyzing data from multiple YouTube channels
+- The 'View' tab is where you can perform in-depth analysis. I used bar charts and data frames for analytical visualizations, with the Pandas package for data frames. This area is designed for analyzing data from multiple YouTube channels
