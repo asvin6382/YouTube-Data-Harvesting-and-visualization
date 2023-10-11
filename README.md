@@ -10,7 +10,7 @@
 - I used MySQL Workbench to save data from MongoDB. While working on this task, I encountered some errors, which I've outlined below for your review. It's important to note that, before data transformation, you must create a database in MySQL, define table names, and specify the respective column names. You can find the SQL code for this in the file above.
 ## Streamlit Web App
 - I used Streamlit to create a web application. In this app, we have three tabs: 'Home,' 'Extract and Transform,' and 'View'
-
-In the 'Home' tab, you can access the basic features. The 'Extract and Transform' tab allows you to provide a YouTube channel ID and retrieve data, which you can then save in MongoDB. There's also a 'Save to SQL' button, which simplifies the process of storing data from MongoDB to MySQL.
+- In the 'Home' tab, you can access the basic features.
+- The 'Extract and Transform' tab allows you to provide a YouTube channel ID and retrieve data, which you can then save in MongoDB. There's also a 'Save to SQL' button, which simplifies the process of storing data from MongoDB to MySQL.
 
 The 'View' tab is where you can perform in-depth analysis. I used bar charts and data frames for analytical visualizations, with the Pandas package for data frames. This area is designed for analyzing data from multiple YouTube channels
