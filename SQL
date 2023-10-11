@@ -1,1 +1,50 @@
+create database youtube_db;
+use youtube_db
+CREATE TABLE channels (
+    Channel_id VARCHAR(255),
+    Channel_name VARCHAR(255),
+    Playlist_id VARCHAR(255),
+    Subscribers INT,
+    Views INT,
+    Total_videos INT,
+    Description TEXT,
+    Country VARCHAR(255)
+);
+CREATE TABLE videos (
+    Channel_name VARCHAR(255),
+    Channel_id VARCHAR(255),
+    Video_id VARCHAR(255),
+    Title VARCHAR(255),
+    Tags TEXT,
+    Thumbnail VARCHAR(255),
+    Description TEXT,
+    Published_date TIMESTAMP,
+    Duration VARCHAR(255),
+    Views INT,
+    Likes INT,
+    Comments INT,
+    Favorite_count INT,
+    Definition VARCHAR(255),
+    Caption_status VARCHAR(255)
+);
 
+CREATE TABLE comments (
+    Comment_id VARCHAR(255),
+    Video_id VARCHAR(255),
+    Comment_text TEXT,
+    Comment_author VARCHAR(255),
+    Comment_posted_date TIMESTAMP,
+    Like_count INT,
+    Reply_count INT
+);
+
+
+
+
+drop table videos;
+truncate table videos;
+truncate table comments;
+truncate table channels;
+select * from videos
+select * from channels
+select * from comments
