@@ -29,4 +29,4 @@
 
 
 ## Project Conclusion and Thank You
--Project successfully concluded with gratitude for everyone's contributions and support. Special thanks to Vijay Kumar V, Talent Acquisition Executive at GUVI, for providing this opportunity.
+- Project successfully concluded with gratitude for everyone's contributions and support. Special thanks to Vijay Kumar V, Talent Acquisition Executive at GUVI, for providing this opportunity.
