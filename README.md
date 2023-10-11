@@ -21,6 +21,8 @@
 
 
 
-## Sample Image 
-
+## Sample Images 
+### Extract and Transform Page
 ![Sample Image](./Screanshots/Screenshot%20(200).png)
+### View Page
+![Sample Image](./Screanshots/Screenshot%20(199).png)
